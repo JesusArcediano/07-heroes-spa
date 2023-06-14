@@ -11,7 +11,7 @@ export const LoginPage = () => {
   const onLogin = () => {
     let lastPath = localStorage.getItem('lastPath') || '/';
     
-    login('Fernando Herrera');
+    login('Jesús Arcediano');
 
     navigate( lastPath, {
       replace: true
@@ -21,7 +21,7 @@ export const LoginPage = () => {
 
   return (
     <div className="container mt-5">
-      <h1>LoginPage</h1>
+      <h1>Login</h1>
       <hr />
 
       <button

@@ -1,6 +1,6 @@
-import { types } from "../../../../src/auth";
+import { types } from "../../../src/auth";
 
-describe('Pruebas en "types.js', () => {
+describe('Pruebas en types.js', () => {
 
 
     test('Debe devolver estos types', () => {
